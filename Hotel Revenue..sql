@@ -1,4 +1,7 @@
--- Combining the three tables for better visualization of the data.
+This dataset was downloaded from the Absent data website and named hotel_revenue_historical_full. 
+My goal is to determine if the Hotel revenue is increasing yearly. 
+
+-- Combining the tables for better visualization of the data.
 
 select * from dbo.['2018$']
 union
@@ -22,8 +25,7 @@ select arrival_date_year, hotel,
 	from Hotels 
 	group by arrival_date_year, hotel
 
-
--- Adding the discount 
+-- Adding the discount from table market_segment$ and meal cost from table meal_cost$.
 -- A) Left joining columns from table dbo.market_segment$ and dbo.meal_cost$ to incoorporate discounts and meal costs and types. 
 
 with Hotels as (
