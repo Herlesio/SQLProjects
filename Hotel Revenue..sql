@@ -1,5 +1,5 @@
 This dataset was downloaded from the Absent data website and named hotel_revenue_historical_full. 
-My goal is to determine if the Hotel revenue is increasing yearly. 
+It was loaded into SSMS for the purpose of determining whether the Hotel revenue is increasing annually. 
 
 -- Combining the tables for better visualization of the data.
 
