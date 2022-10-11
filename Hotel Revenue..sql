@@ -1,4 +1,4 @@
-This dataset was downloaded from the Absent data website and named hotel_revenue_historical_full. 
+This dataset was downloaded from the Absent data website and named "hotel_revenue_historical_full". 
 It was loaded into SSMS for the purpose of determining whether the Hotel revenue is increasing annually. 
 
 -- Combining the tables for better visualization of the data.
