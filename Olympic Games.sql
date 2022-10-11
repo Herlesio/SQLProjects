@@ -15,7 +15,7 @@ with part1 as (select count(distinct games) as total_summer_games
 			  
 -- 2) Finding how many times each sport has been part of the Olympic Summer games by sorting data by sport and games during the summer season 
 -- from table olympics_history, group them by sport, and then join the results from the first step (total_summer_games).
-	-- Answer is swimming, cycling, fencing, gymnastics, and athletics were part of all 29 summer Olympic games. 
+	-- Answer is swimming, cycling, fencing, gymnastics, and athletics were consistently present in all 29 summer Olympic games. 
 			 
 part2 as (select distinct(sport), games
 		 from olympics_history
